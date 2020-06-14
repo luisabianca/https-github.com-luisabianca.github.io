@@ -28,7 +28,7 @@ img {
     object-fit: cover;
 }
 
-div {
+#corpo {
     margin: auto;
     margin-top: initial;
     margin-bottom: initial;
@@ -42,31 +42,22 @@ div {
     color: rgb(70, 69, 69);
 }
 
-#corpo div {
-    display: table-column;
-
-}
-
-#corpo span {
-    border-left: solid;
-    width: 1px;
-    border-color: rgb(212, 211, 211);
-    justify-content: center;
-    margin-top: 28px;
-}
 
 #direita {
-    padding: 16px;
+    padding-left: 16px;
+    padding-top: 0px;
     text-align: left;
-    margin-left: 16px;
-    max-width: 100%;
+    max-width: 96%;
     width: 50%;
+    border-left: solid;
+    border-color: rgb(212, 211, 211);
+
 }
 
 #esquerda {
-    padding: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
     text-align: right;
-    margin-right: 16px;
     max-width: 100%;
     width: 50%;
 
@@ -74,4 +65,5 @@ div {
 
 .text {
     color: #777;
+    
 }
