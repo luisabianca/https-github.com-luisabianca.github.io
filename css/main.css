@@ -3,7 +3,20 @@ html *, body * {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
+p {
+    line-height: 1.4;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #000000;
+  }  
+
+meter::-webkit-meter-suboptimum-value {
+    background: #000000;
+  }
+  
+
+.destacado {
     border: solid;
     padding: 10px 30px;
     text-align: center;
@@ -28,23 +41,24 @@ img {
     object-fit: cover;
 }
 
-#corpo {
+.corpo {
     margin: auto;
     margin-top: initial;
     margin-bottom: initial;
     display: flex;
+    flex-wrap: wrap;
     max-width: 800px;
     justify-content: center;
 
 }
 
-#corpo h3 {
+.corpo h3 {
     color: rgb(70, 69, 69);
 }
 
 
-#direita {
-    padding-left: 16px;
+.direita {
+    padding-left: 20px;
     padding-top: 0px;
     text-align: left;
     max-width: 96%;
@@ -54,8 +68,8 @@ img {
 
 }
 
-#esquerda {
-    padding-right: 16px;
+.esquerda {
+    padding-right: 20px;
     padding-top: 0px;
     text-align: right;
     max-width: 100%;
@@ -66,4 +80,26 @@ img {
 .text {
     color: #777;
     
+}
+
+.education-item span {
+    color: #444;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .destacado {
+        font-size: 20px;
+    }
+    .esquerda, .direita {
+        width: 100%;
+        text-align: left;
+        border: none;
+        padding: 10px;
+        max-width: 100%;
+    }
 }
