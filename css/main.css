@@ -8,11 +8,11 @@ p {
 }
 
 meter::-webkit-meter-optimum-value {
-    background: #000000;
+    background: #880f0f;
   }  
 
 meter::-webkit-meter-suboptimum-value {
-    background: #000000;
+    background: #880f0f;
   }
   
 
@@ -32,7 +32,7 @@ h2 {
     color: #777;
 }
 
-img {
+.foto-principal {
     border-radius: 100%;
     width: 150px;
     margin: 16px auto;
