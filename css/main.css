@@ -49,6 +49,7 @@ img {
     flex-wrap: wrap;
     max-width: 800px;
     justify-content: center;
+    padding: 20px;
 
 }
 
@@ -77,13 +78,23 @@ img {
 
 }
 
-.text {
+.year {
     color: #777;
-    
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .education-item span {
-    color: #444;
+    color: #666;
+}
+
+.legenda {
+    color: #777;
+    font-size: 14px;
+}
+
+.skill {
+    color: #666;
 }
 
 .status {
