@@ -40,6 +40,9 @@ h2 {
     display: block;
     max-height: 150px;
     object-fit: cover;
+    box-shadow: 0 10px 20px;
+    rgba(0,0,0,0.19), 0 6px 6px;
+    rgba(0,0,0,0.23);
 }
 
 .corpo {
@@ -55,6 +58,8 @@ h2 {
 
 .corpo h3 {
     color: rgb(70, 69, 69);
+    font-size: 24px;
+    margin: 36px 0;
 }
 
 .pessoal-item {
@@ -108,6 +113,11 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
+}
+
+.icon img {
+    width: 25px;
+    align-items: center;
 }
 
 @media screen and (max-width: 500px) {
