@@ -58,8 +58,6 @@ h2 {
 
 .corpo h3 {
     color: rgb(70, 69, 69);
-    font-size: 24px;
-    margin: 36px 0;
 }
 
 .pessoal-item {
@@ -112,7 +110,7 @@ h2 {
 .status {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
 }
 
 .icon img {
