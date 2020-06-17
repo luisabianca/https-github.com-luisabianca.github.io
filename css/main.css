@@ -130,6 +130,7 @@ h2 {
     .destacado {
         font-size: 20px;
     }
+
     .esquerda, .direita {
         width: 100%;
         text-align: left;
@@ -138,4 +139,11 @@ h2 {
         max-width: 100%;
     }
 
+    .icon {
+        flex-direction: row-reverse;
+    }
+    
+    .icon span img {
+        margin-right: 8px;
+    }
 }
