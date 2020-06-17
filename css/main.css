@@ -127,6 +127,11 @@ h2 {
     border-radius: 100%;
 }
 
+.about-me {
+    color: #666;
+
+}
+
 @media screen and (max-width: 500px) {
     .destacado {
         font-size: 20px;
@@ -147,4 +152,5 @@ h2 {
     .icon span img {
         margin-right: 8px;
     }
+
 }
