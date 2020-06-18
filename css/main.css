@@ -62,6 +62,7 @@ h2 {
 
 .pessoal-item {
     color: #666;
+    margin-right: 15px;
 }
 
 .pessoal-item a {
@@ -107,10 +108,24 @@ h2 {
     color: #666;
 }
 
+
 .status {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 5px;
+}
+
+.status i {
+    color: black;
+    margin-right: 10px;
+}
+
+.status img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.barra {
+    margin-left: auto;
 }
 
 .icon {
@@ -120,11 +135,11 @@ h2 {
     margin-bottom: 5px;
 }
 
-.icon span img {
-    width: 25px;
+.icon i {
+
     align-items: center;
-    margin-left: 8px;
-    border-radius: 100%;
+    color: black;
+
 }
 
 .about-me {
@@ -149,7 +164,7 @@ h2 {
         flex-direction: row-reverse;
     }
     
-    .icon span img {
+    .icon i {
         margin-right: 8px;
     }
 
