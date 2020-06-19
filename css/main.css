@@ -8,11 +8,11 @@ p {
 }
 
 meter::-webkit-meter-optimum-value {
-    background: #880f0f;
+    background: #a71313;
   }  
 
 meter::-webkit-meter-suboptimum-value {
-    background: #880f0f;
+    background: #a71313;
   }
   
 
