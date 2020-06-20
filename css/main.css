@@ -9,13 +9,12 @@ p {
 
 meter::-webkit-meter-optimum-value {
     background: #a71313;
-  }  
+}  
 
 meter::-webkit-meter-suboptimum-value {
     background: #a71313;
-  }
+}
   
-
 .destacado {
     border: solid;
     padding: 10px 30px;
@@ -76,8 +75,7 @@ h2 {
     text-align: left;
     max-width: 96%;
     width: 50%;
-    border-left: solid 2px #cccccc
-
+    border-left: solid 2px #cccccc;
 }
 
 .esquerda {
@@ -86,7 +84,6 @@ h2 {
     text-align: right;
     max-width: 100%;
     width: 50%;
-
 }
 
 .year {
@@ -112,6 +109,13 @@ h2 {
 .status {
     display: flex;
     margin-bottom: 5px;
+}
+
+.status meter {
+
+height: 10px;
+border-radius: 10px;
+overflow: hidden;
 }
 
 .status i {
