@@ -61,7 +61,7 @@ h2 {
 
 .pessoal-item {
     color: #666;
-    margin-right: 15px;
+    margin-right: 14px;
 }
 
 .pessoal-item a {
@@ -108,7 +108,7 @@ h2 {
 
 .status {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .status meter {
@@ -136,7 +136,7 @@ overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .icon i {
