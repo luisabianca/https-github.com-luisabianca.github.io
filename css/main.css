@@ -3,6 +3,10 @@ html *, body * {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+    color: #2F4F4F;
+}
+
 p {
     line-height: 1.4;
 }
@@ -28,7 +32,7 @@ meter::-webkit-meter-suboptimum-value {
 h2 {
     text-align: center;
     font-size: 16px;
-    color: #777;
+    color: #2F4F4F;
     margin: 30px 0;
 }
 
@@ -51,10 +55,6 @@ h2 {
     max-width: 800px;
     justify-content: center;
     padding: 20px;
-}
-
-.corpo h3 {
-    color: rgb(70, 69, 69);
 }
 
 .pessoal-item {
