@@ -86,9 +86,13 @@ h2 {
 
 .year {
     color: #777;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 14px;
 }
+
+.company {
+    font-weight: 700;
+}
+
 
 .education-item span {
     color: #666;
@@ -147,6 +151,11 @@ overflow: hidden;
 .about-me {
     color: #666;
 
+}
+
+.description {
+    color: #444;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 500px) {
